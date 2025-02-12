@@ -39,6 +39,30 @@
     color: #636363;
 }
 
+.sub-text-gray {
+    color: #4c4c4c;
+}
+
+.sub-text-blue {
+    color: #077fe9;
+}
+
+.sub-text-blue-size {
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.sub-text-gray-size {
+    font-size: 28px;
+}
+
+.description-text-lightGray {
+    font-size: 12px;
+}
+
+.img-size {
+    height: 150px;
+}
 
 
 /* header style */
@@ -76,6 +100,84 @@
     font-weight: 500;
 }
 
+/* banner style */
+
+.bg-img {
+    background-image: url(../Images/hotranked\ homepage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 15%;
+}
+
+.banner-img {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.head {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+}
+
+.sub-head {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 12px;
+}
+
+/* Our list section */
+
+.card-text-font {
+    font-size: 10px;
+} 
+
+.bg-card-img {
+    background-color: #011E4F;
+}
+
+.icon-color {
+    fill: #00D6E4;
+}
+
+.icon-size {
+    width: 25%;
+}
+
+/* our list category style */
+
+.img-div {
+    width: 15%;
+}
+
+.img-one {
+    left: 0px;
+}
+
+.img-two {
+    left: 15px;
+}
+
+.img-three {
+    left: 30px;
+}
+
+.para-catg {
+    font-size: 12px;
+    left: 55px;
+    top: 5px;
+}
+
+.text-footer {
+    font-size: 12px;
+}
+
+
+/* responsive */
+
 @media screen and (max-width: 769px) {
     
     .img-div {
@@ -87,6 +189,12 @@
         right: 10px;
         top: 50%;
         transform: translateY(-50%);
+    }
+
+    /* banner styles */
+
+    .head {
+        font-size: 52px;
     }
 }
 
@@ -105,5 +213,12 @@
 
     .search-btn {
         padding: 4px 10px 7px 10px;
+    }
+
+    /* banner styles */
+
+    .head {
+        font-size: 32px;
+        line-height: 32px;
     }
 }
