@@ -144,7 +144,7 @@ button:focus:not(:focus-visible) {
 }
 
 .banner-effect-img {
-    right: 0;
+    right: -94px;
     width: 25%;
     display: block;
 }
@@ -167,22 +167,22 @@ button:focus:not(:focus-visible) {
     width: 60%;
 }
 
-.california .card-body-div {
-    width: 43%;
-    position: relative;
-    top: 118px;
-    right: -408px;
+.california-div {
+    top: 71px;
+    right: -46px;
+    /* width: 50%; */
+    border: 5px solid #00D6E4;
+    width: 37%;
+    border-radius: 15%;
+    background-color: #ffffff;
 }
 
-.california .list-img {
-    top: -16px;
-    left: 26px;
-    width: 75%;
-}
-
-.california .para-catg {
-    padding: 0px;
-}
+/* .california {
+    border: 5px solid #00D6E4;
+    width: 55%;
+    border-radius: 15%;
+    background-color: #ffffff;
+} */
 
 .card-body h5 {
     font-size: 12px;
@@ -195,9 +195,6 @@ button:focus:not(:focus-visible) {
     padding: 6px 30px 0px 30px;
 }
 
-/* .banner-div {
-    margin: 8% 0px;
-} */
 
 .half-circle-img {
     width: 48px;
@@ -331,6 +328,10 @@ button:focus:not(:focus-visible) {
         right: 50%;
         width: 15%;
     }
+
+    .banner-effect-img {
+        right: -57px;
+    }
 }
 
 @media screen and (max-width: 1025px) {
@@ -358,6 +359,10 @@ button:focus:not(:focus-visible) {
 
     .sub-head {
         font-size: 12px;
+    }
+
+    .banner-effect-img {
+        right: -30px;
     }
 
     
@@ -525,22 +530,23 @@ button:focus:not(:focus-visible) {
         line-height: 23px;
     }
 
-    .rect-div img {
-        right: -173%;
-        top: 8%;
-        width: 100%;
+    .california-div {
+        top: 11px;
+        right: -50px;
+        width: 50%;
     }
 
-    .california .card-body-div {
-        width: 100%;
-        top: 2px;
-        right: -186px;
+    .card-body p {
+        padding: 0px 0px 0px 0px;
     }
 
-    .california .list-img {
-        top: 2px;
-        left: 28px;
-        width: 35%;
+    .card-body h5 {
+        font-size: 12px;
+        padding: 14px 0px 0px 6px;
+    }
+
+    .california {
+        width: 60%;
     }
 
     .half-circle-img {
